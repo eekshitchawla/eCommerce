@@ -7,7 +7,6 @@ import './MyCart.css'
 const Cart = () => {
 
     const [cartItems, setCartItems] = useState([])
-    const [userDetails, setUserDetails] = useState([])
 
     const handleDelete = async (meal) => {
         const email = await localStorage.getItem('email')

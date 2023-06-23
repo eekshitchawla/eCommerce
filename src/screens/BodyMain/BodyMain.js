@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React from "react";
 import mealBox from "../../assets/mealBox.png";
 import '../BodyMain/BodyMain.css';
 import "../Signup/Signup.css";
